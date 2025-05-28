@@ -90,7 +90,7 @@ Both emails (even the commented one) will appear in the picker.
 
 ---
 
-## 🧪 Example
+## Example
 
 ```bash
 gitsigner -s -v
