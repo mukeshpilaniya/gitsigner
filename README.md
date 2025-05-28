@@ -1,6 +1,5 @@
 
-````markdown
-# 🖊️ gitsigner
+# gitsigner
 
 A terminal-based Git wrapper that helps you **select your Git email address** at commit time, using a terminal UI. Useful when you switch between personal and work email addresses.
 
@@ -8,7 +7,7 @@ Built with [Ratatui](https://github.com/ratatui/ratatui), [`crossterm`](https://
 
 ---
 
-## ✨ Features
+##  Features
 
 - Automatically reads `~/.gitconfig` to find all email addresses, including commented-out ones.
 - Interactive terminal UI lets you pick the email address.
@@ -18,7 +17,7 @@ Built with [Ratatui](https://github.com/ratatui/ratatui), [`crossterm`](https://
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/yourname/gitsigner.git
@@ -40,7 +39,7 @@ Or use it directly:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 If you run:
 
@@ -64,7 +63,7 @@ If you don’t pass `-s` or `--signoff`, it just runs `git commit` normally with
 
 ---
 
-## ✅ Supported Commands
+##  Supported Commands
 
 | Command                     | Shows Email Picker? |
 |-----------------------------|---------------------|
@@ -76,7 +75,7 @@ If you don’t pass `-s` or `--signoff`, it just runs `git commit` normally with
 
 ---
 
-## 🛠 Configuration
+## Configuration
 
 Make sure your `~/.gitconfig` has your emails:
 
@@ -112,7 +111,7 @@ Press ↑/↓ and Enter to confirm.
 
 ---
 
-## 💡 Tip
+## Tip
 
 You can also use this as a Git alias:
 
@@ -128,7 +127,7 @@ git sign -s
 
 ---
 
-## 📜 License
+##  License
 
 MIT
 ````
